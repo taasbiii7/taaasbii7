@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المسبحة الإلكترونية - صدقة جارية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tasbeeh-container">
+        <div class="header-text">صدقة جارية لروح جدي رحمه الله</div>
+        
+        <!-- مكان عرض الذكر الحالي -->
+        <div class="dhikr-display" id="dhikrText">سبحان الله</div>
+        
+        <!-- شاشة العداد -->
+        <div class="counter-display" id="counter">0</div>
+        
+        <!-- زر التسبيح الأساسي -->
+        <button class="btn btn-count" id="countBtn">اضغط للتسبيح</button>
+        
+        <!-- أزرار التحكم -->
+        <div class="control-buttons">
+            <button class="btn btn-next" id="nextDhikrBtn">الذكر التالي</button>
+            <button class="btn btn-reset" id="resetBtn">تصفير</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
